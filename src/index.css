@@ -430,6 +430,20 @@ button {
   padding: 0;
 }
 
+@media (min-width: 1024px) {
+  .categoryListings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .categoryListings {
+    grid-template-columns: repeat(3, 1fr);    
+  }
+}
+
 .categoryListing {
   display: flex;
   justify-content: space-between;
